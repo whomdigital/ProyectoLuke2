@@ -1,0 +1,110 @@
+/*********************************************************************************
+
+	Template Name: Template Full Name Here
+	Description: A perfect template to build beautiful and unique medical websites. It comes with nice and clean design.
+	Version: 1.0
+
+	Note: This is custom css.
+
+**********************************************************************************/
+
+@font-face {
+	font-family: Optima;
+	src: url(../fonts/Optima.ttc);
+  }
+
+@font-face {
+	font-family: Helvatica;
+	src: url(../fonts/HelveticaNeueLTS.otf);
+  }
+
+  #poweredresponsive{
+	display: none;
+}
+ 
+@media only screen 
+	 and (max-width : 700px)
+	 { 
+		#footer2{
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+	 }
+	 #powered{
+		visibility: hidden;
+	 }
+	 #oppel{
+		 
+	 }
+	 #poweredresponsive{
+		 display: block;
+		 
+	 }
+}
+
+@keyframes intro {
+	0% { clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%); }
+	100% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); }
+  }
+  #preloader-image {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	animation: intro 3s;
+  }
+
+  @media only screen and (max-width:767px) {
+	  #superhero{
+		display: none;
+	  }
+  }
+
+  @media only screen and (min-width:767px) {
+	  #galeria{
+		  display: none;
+	  }
+	}
+	
+
+@media only screen and (max-width: 1000px){
+	.some-page-wrapper{
+		display: none;
+	}
+}
+	.some-page-wrapper{
+		padding-left: 2%;
+		padding-top: 2%;
+	}
+
+	.row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 120%;
+	}
+	
+	.column {
+		display: flex;
+		flex-direction: column;
+		flex-basis: 100%;
+		flex: 1;
+	}
+
+	.blue-column{
+		background-image: url(/imgss/1-edit.jpg);
+		height: 900px;
+		background-repeat: no-repeat;
+		padding-left: 2%;
+	}
+
+	.green-column{
+		position: absolute;
+		padding-left: 0px;
+		margin-left: 0px;
+		padding-right: 3%;
+		top:24%;
+	}
+
+@media only screen and (min-width: 1001px){
+	#primeramobile{
+		display: none;
+	}
+}
