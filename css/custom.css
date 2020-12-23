@@ -78,7 +78,7 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		width: 120%;
+		width: 100%;
 	}
 	
 	.column {
@@ -106,5 +106,8 @@
 @media only screen and (min-width: 1001px){
 	#primeramobile{
 		display: none;
+	}
+	#parrafo{
+		padding-top: 105%;
 	}
 }
