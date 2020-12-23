@@ -14670,7 +14670,7 @@ a.moredetails-btn.yellow-color-2:hover {
     font-size: 12px;
     line-height: 1.84;
     font-style: italic;
-    color: #333
+    color: #fff
 }
 
 .contact-form.contact-form--2 input {
@@ -14832,35 +14832,35 @@ a.moredetails-btn.yellow-color-2:hover {
 }
 
 .contact-form.contact-form--5 input::-webkit-input-placeholder {
-    color: #001029
+    color: #fff
 }
 
 .contact-form.contact-form--5 input::-moz-placeholder {
-    color: #001029
+    color: #fff
 }
 
 .contact-form.contact-form--5 input:-ms-input-placeholder {
-    color: #001029
+    color: #fff
 }
 
 .contact-form.contact-form--5 input:-moz-placeholder {
-    color: #001029
+    color: #fff
 }
 
 .contact-form.contact-form--5 textarea::-webkit-input-placeholder {
-    color: #001029
+    color: #fff
 }
 
 .contact-form.contact-form--5 textarea::-moz-placeholder {
-    color: #001029
+    color: #fff
 }
 
 .contact-form.contact-form--5 textarea:-ms-input-placeholder {
-    color: #001029
+    color: #fff
 }
 
 .contact-form.contact-form--5 textarea:-moz-placeholder {
-    color: #001029
+    color: #fff
 }
 
 .brook-about-area.bg-shape {
